@@ -1,6 +1,8 @@
-package com.sanjay.sample.spring.bean.factory;
+package com.sanjay.sample.spring.di.bean.factory;
 
 
+import com.sanjay.sample.spring.di.common.Drawing;
+import com.sanjay.sample.spring.di.common.Shape;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

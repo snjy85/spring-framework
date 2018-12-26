@@ -1,5 +1,9 @@
-package com.sanjay.sample.spring.simple;
+package com.sanjay.sample.spring.di.plain;
 
+
+import com.sanjay.sample.spring.di.common.Circle;
+import com.sanjay.sample.spring.di.common.Drawing;
+import com.sanjay.sample.spring.di.common.Triangle;
 
 public class Application {
     public static void main(String[] args) {

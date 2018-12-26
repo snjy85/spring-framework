@@ -1,4 +1,4 @@
-package com.sanjay.sample.spring.bean.factory;
+package com.sanjay.sample.spring.di.common;
 
 public class Triangle implements Shape {
 

@@ -1,4 +1,4 @@
-package com.sanjay.sample.spring.simple;
+package com.sanjay.sample.spring.di.common;
 
 public class Drawing {
 
