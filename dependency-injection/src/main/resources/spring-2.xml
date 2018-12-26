@@ -3,6 +3,8 @@
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="circle" class="com.sanjay.sample.spring.di.bean.factory.Circle"/>
-    <bean id="triangle" class="com.sanjay.sample.spring.di.bean.factory.Triangle"/>
+    <bean id="circle" class="com.test.sample.spring.di.common.Circle">
+        <property name="radius" value="15"/>
+    </bean>
+    <bean id="triangle" class="com.test.sample.spring.di.common.Triangle"/>
 </beans>
