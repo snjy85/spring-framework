@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="pointedTriangle" class="com.test.sample.spring.di.common.PointedTriangle" autowire="byName"/>
+    <bean id="pointA" class="com.test.sample.spring.di.common.Point">
+        <property name="x" value="0"/>
+        <property name="y" value="0"/>
+    </bean>
+    <bean id="pointB" class="com.test.sample.spring.di.common.Point">
+        <property name="x" value="20"/>
+        <property name="y" value="10"/>
+    </bean>
+    <bean id="pointC" class="com.test.sample.spring.di.common.Point">
+        <property name="x" value="45"/>
+        <property name="y" value="30"/>
+    </bean>
+
+</beans>

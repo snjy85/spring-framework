@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="60">
+    <Appenders>
+        <Console name="StandardOutAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{ISO8601} [%X{systemUniqueId}] [%X{requestId}] [%t] %-5p %c{1.} - %m%n"/>
+        </Console>
+
+    </Appenders>
+
+    <Loggers>
+        <AsyncRoot level="debug" includeLocation="false">
+            <AppenderRef ref="StandardOutAppender"/>
+        </AsyncRoot>
+
+    </Loggers>
+</Configuration>
