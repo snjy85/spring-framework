@@ -1,7 +1,10 @@
 package com.test.sample.spring.di.common;
 
+import org.springframework.context.ApplicationContext;
+
 public class PointedTriangle implements Shape {
 
+    private ApplicationContext context;
     private Point pointA;
     private Point pointB;
     private Point pointC;
@@ -35,4 +38,5 @@ public class PointedTriangle implements Shape {
         System.out.println("In PointedTraingle with pointB " + pointB.getX() + " - " + pointB.getY());
         System.out.println("In PointedTraingle with pointC " + pointC.getX() + " - " + pointC.getY());
     }
+
 }

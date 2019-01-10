@@ -1,9 +1,6 @@
 package com.test.sample.spring.di.bean.factory;
 
-import com.test.sample.spring.di.application.context.CollectionInjection;
-import com.test.sample.spring.di.application.context.ConstructorInjection;
-import com.test.sample.spring.di.application.context.ObjectInjection;
-import com.test.sample.spring.di.application.context.PropertyInjection;
+import com.test.sample.spring.di.application.context.*;
 import com.test.sample.spring.di.plain.ApplicationPlain;
 import org.apache.log4j.BasicConfigurator;
 
@@ -19,6 +16,7 @@ public class Driver {
             ConstructorInjection.main(null);
             ObjectInjection.main(null);
             PropertyInjection.main(null);
+            InitDestroyBean.main(null);
         } catch (Exception e) {
             e.printStackTrace();
         }
